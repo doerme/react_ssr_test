@@ -1,0 +1,16 @@
+{
+  "name": "react_ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack&&node server/index.js"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "express": "^4.17.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
